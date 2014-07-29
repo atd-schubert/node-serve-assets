@@ -1,6 +1,6 @@
 {
   "name": "serve-assets",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An easy to use minifing assets-server as connect-middleware",
   "main": "index.js",
   "scripts": {
@@ -18,10 +18,8 @@
     "minify",
     "uglify",
     "image-resize",
-    "express",
-    "middleware",
-    "connect",
-    "middleware",
+    "express-middleware",
+    "connect-middleware",
     "middleware"
   ],
   "author": "Arne Schubert <atd.schubert@gmail.com>",

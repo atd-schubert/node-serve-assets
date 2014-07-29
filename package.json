@@ -1,0 +1,33 @@
+{
+  "name": "serve-assets",
+  "version": "0.0.0",
+  "description": "An easy to use minifing assets-server as connect-middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atd-schubert/node-serve-assets.git"
+  },
+  "keywords": [
+    "assets",
+    "js",
+    "css",
+    "image",
+    "minify",
+    "uglify",
+    "image-resize",
+    "express",
+    "middleware",
+    "connect",
+    "middleware",
+    "middleware"
+  ],
+  "author": "Arne Schubert <atd.schubert@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atd-schubert/node-serve-assets/issues"
+  },
+  "homepage": "https://github.com/atd-schubert/node-serve-assets"
+}

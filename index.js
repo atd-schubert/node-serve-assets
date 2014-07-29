@@ -14,7 +14,7 @@ var AssetsServer = function(opts){
   if(!opts || !opts.route || !opts.path) throw new Error("You have to setup a path and a route for the assets-packing-server");
   EventEmitter.call(this);
   
-  opts.cacheFn = opts.cacheFn || function(path, content, cb){cb();}; // a cache is optional
+  opts.cacheFn = opts.cacheFn || function(path, content, cb){if(cb) cb();}; // a cache is optional
   opts.uncacheFn = opts.uncacheFn || function(path, cb){cb();}; // a cache is optional
   var self = this;
   
